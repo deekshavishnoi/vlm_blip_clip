@@ -1,0 +1,16 @@
+video_path: "/Users/deek/Downloads/august.mp4"
+frames_per_second: 2
+output_frames_dir: "task1_video_captioning/data/interim/frames"
+frames_csv_path: "task1_video_captioning/data/interim/frames.csv"
+captions_path: "task1_video_captioning/data/processed/captions/captions.jsonl"
+video_description_path: "task1_video_captioning/data/processed/captions/description.txt"
+image_ext: ".jpg"
+max_frames: null
+caption_model: "Salesforce/blip-image-captioning-base"
+device: "cpu"
+
+
+caption_cards_dir: "task1_video_captioning/outputs/caption_cards"
+num_beams: 5
+num_return: 5
+max_new_tokens: 30
