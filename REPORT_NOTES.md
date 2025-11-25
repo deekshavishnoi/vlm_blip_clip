@@ -1,11 +1,3 @@
----
-geometry: margin=1in
-toc: false
-fontsize: 11pt
-colorlinks: true
-linkcolor: blue
-papersize: a4
----
 
 
 # Report Notes — Multimodal Generative AI
