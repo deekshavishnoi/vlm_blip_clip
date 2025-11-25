@@ -1,0 +1,11 @@
+captions_path: "frame_extraction_and_captioning/data/processed/captions/captions.jsonl"
+objects_path: "scene_classification_and_object_detection/data/processed/objects.parquet"
+scenes_path: "scene_classification_and_object_detection/data/processed/scenes.parquet"
+
+knowledge_base_path: "chatbot_integration/data/knowledge_base.parquet"
+faiss_index_path: "chatbot_integration/data/embeddings.faiss"
+metadata_path: "chatbot_integration/data/metadata.json"
+
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+device: "cpu"
+top_k: 5
