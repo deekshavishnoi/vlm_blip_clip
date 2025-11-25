@@ -72,10 +72,10 @@ While the fish were still not recognized, the description became less confident 
 
 Below is the caption before fix:
 ~~~bash
-{"frame_path": "task1_video_captioning/data/interim/frames/frame_000010.jpg", "timestamp_sec": 20.0, "caption": "a bowl of soup", "model": "Salesforce/blip-image-captioning-base", "runtime_ms": 492.95}
+{"frame_path": "frame_extraction_and_captioning/data/interim/frames/frame_000010.jpg", "timestamp_sec": 20.0, "caption": "a bowl of soup", "model": "Salesforce/blip-image-captioning-base", "runtime_ms": 492.95}
 ~~~
 
-<img src="task1_video_captioning/outputs/caption_cards/cap_frame_000010.jpg" alt="Example Frame" width="80%"/>
+<img src="frame_extraction_and_captioning/outputs/caption_cards/cap_frame_000010.jpg" alt="Example Frame" width="80%"/>
 
 
 ### Example 2: The Bridge that Crossed an Imaginary River
@@ -93,8 +93,8 @@ I did not apply a fix here due to time and CPU constraints, though I explored te
 A possible improvement would be to incorporate temporal context into the captioning stage, for example, by averaging visual embeddings across neighboring frames or using a CLIP-like consistency model, which would require GPU resources.
 
 <p float="left">
-  <img src="task1_video_captioning/outputs/caption_cards/cap_frame_000006.jpg" width="49%" />
-  <img src="task1_video_captioning/outputs/caption_cards/cap_frame_000007.jpg" width="49%" />
+  <img src="frame_extraction_and_captioning/outputs/caption_cards/cap_frame_000006.jpg" width="49%" />
+  <img src="frame_extraction_and_captioning/outputs/caption_cards/cap_frame_000007.jpg" width="49%" />
 </p>
 
 **Figure:** Two nearly identical frames produced mismatched captions — “a bridge over a river” (left) vs. “a bridge with a light pole on top of it” (right).
@@ -112,8 +112,8 @@ These kinds of errors usually stem from the model’s training bias rather than 
 
 
 <p float="left">
-  <img src="task1_video_captioning/outputs/caption_cards/cap_frame_000013.jpg" width="49%" />
-  <img src="task1_video_captioning/outputs/caption_cards/cap_frame_000014.jpg" width="49%" />
+  <img src="frame_extraction_and_captioning/outputs/caption_cards/cap_frame_000013.jpg" width="49%" />
+  <img src="frame_extraction_and_captioning/outputs/caption_cards/cap_frame_000014.jpg" width="49%" />
 </p>
 
 
