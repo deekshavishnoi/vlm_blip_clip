@@ -1,4 +1,4 @@
-# BMW Multimodal Generative AI Challenge — Internship Coding Task
+# Multimodal Generative AI
 
 ---
 
@@ -17,16 +17,14 @@ python -m transformers-cli env
 ```
 ### 3. Folder layout
 ```bash
-bmw_vlm_challenge/
+vlm_blip_clip/
 ├─ common/                      # Shared utilities (I/O, logging, viz)
 │   ├─ io_utils.py
 │   └─ viz.py
-├─ task1_video_captioning/      # Task 1: VLM Captioning
+├─ frame_extraction_and_captioning/      # Task 1: VLM Captioning
 ├─ task2_preprocess_analysis/   # Task 2: Object + Scene Analysis
 ├─ task3_chatbot_integration/   # Task 3: Conceptual Chatbot Integration
-├─ docs/                        # Extra notes and video link
-│   ├─ VIDEO_LINK.txt
-│   └─ REPORT_NOTES.md
+├─ REPORT_NOTES.md
 └─ requirements.txt
 ```
 ---
@@ -51,8 +49,8 @@ bmw_vlm_challenge/
 
 ### Example — Task 1 Full Pipeline
 ```bash
-python -m task1_video_captioning.run_task1 all \
-    --cfg task1_video_captioning/configs/task1.yaml
+python -m frame_extraction_and_captioning.run_task1 all \
+    --cfg frame_extraction_and_captioning/configs/task1.yaml
 ```
 
 ### Example — Task 2
