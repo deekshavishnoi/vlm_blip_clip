@@ -8,7 +8,7 @@ papersize: a4
 ---
 
 
-# Report Notes — BMW Multimodal Generative AI Challenge
+# Report Notes — Multimodal Generative AI
 
 ---
 
