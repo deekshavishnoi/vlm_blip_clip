@@ -1,9 +1,9 @@
 # Task 2 configuration — Data Preprocessing & Analysis
-video_source: "task1_video_captioning/data/raw/august.mp4"
+video_source: "frame_extraction_and_captioning/data/raw/august.mp4"
 
 # 👇 Reuse the extracted frames from Task 1
-frames_dir: "task1_video_captioning/data/interim/frames"
-frames_csv: "task1_video_captioning/data/interim/frames.csv"
+frames_dir: "frame_extraction_and_captioning/data/interim/frames"
+frames_csv: "frame_extraction_and_captioning/data/interim/frames.csv"
 
 # 🧠 Output paths for this task
 output_dir: "scene_classification_and_object_detection/data/processed"
