@@ -1,0 +1,21 @@
+# Task 2 configuration — Data Preprocessing & Analysis
+video_source: "task1_video_captioning/data/raw/august.mp4"
+
+# 👇 Reuse the extracted frames from Task 1
+frames_dir: "task1_video_captioning/data/interim/frames"
+frames_csv: "task1_video_captioning/data/interim/frames.csv"
+
+# 🧠 Output paths for this task
+output_dir: "scene_classification_and_object_detection/data/processed"
+objects_path: "scene_classification_and_object_detection/data/processed/objects.parquet"
+scenes_path: "scene_classification_and_object_detection/data/processed/scenes.parquet"
+plots_dir: "scene_classification_and_object_detection/outputs/plots"
+
+# ⚙️ Model settings
+object_model: "yolov8n.pt"              # lightweight model from ultralytics
+scene_model: "resnet18_places365.pth"   # pretrained Places365
+device: "cpu"
+batch_size: 4
+conf_threshold: 0.3
+top_k_objects: 5
+top_k_scenes: 3
