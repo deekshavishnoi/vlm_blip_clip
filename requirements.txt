@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers
+opencv-python
+pillow
+pandas
+pyyaml
+tqdm
+matplotlib
+ultralytics           # (Task 2: YOLO)
+sentence-transformers # (Task 3)
+faiss-cpu             # (Task 3; or use lancedb instead)
+pyarrow               # for parquet outputs
