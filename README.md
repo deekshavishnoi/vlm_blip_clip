@@ -56,7 +56,7 @@ python -m frame_extraction_and_captioning.run_task1 all \
 ### Example — Task 2
 
 ```bash
-python -m task2_preprocess_analysis.run_task2 all \
-    --cfg task2_preprocess_analysis/configs/task2.yaml
+python -m scene_classification_and_object_detection.run_task2 all \
+    --cfg scene_classification_and_object_detection/configs/task2.yaml
 ```
 
