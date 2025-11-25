@@ -186,24 +186,24 @@ These steps did not fully solve the problem but improved the output consistency.
 
 ### Example — Before vs After Fixes
 <p float="left">
-  <img src="task2_preprocess_analysis/outputs/visuals/card_frame_000042.jpg" width="49%" />
-  <img src="task2_preprocess_analysis/outputs/visuals_all/card_frame_000021.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals/card_frame_000042.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals_all/card_frame_000021.jpg" width="49%" />
 </p>
 
 **Figure:** The same frame with different caption and scene detection — “minibus” (left) vs. “uncertain” (right).
 
 
 <p float="left">
-  <img src="task2_preprocess_analysis/outputs/visuals/card_frame_000059.jpg" width="49%" />
-  <img src="task2_preprocess_analysis/outputs/visuals_all/card_frame_000030.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals/card_frame_000059.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals_all/card_frame_000030.jpg" width="49%" />
 </p>
 
 **Figure:** The same frame with different caption and scene detection — “moped” (left) vs. “uncertain” (right).
 
 
 <p float="left">
-  <img src="task2_preprocess_analysis/outputs/visuals/card_frame_000069.jpg" width="49%" />
-  <img src="task2_preprocess_analysis/outputs/visuals_all/card_frame_000035.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals/card_frame_000069.jpg" width="49%" />
+  <img src="scene_classification_and_object_detection/outputs/visuals_all/card_frame_000035.jpg" width="49%" />
 </p>
 
 **Figure:** The same frame with different caption and scene detection — “cab” (left) vs. “uncertain” (right).
@@ -246,7 +246,7 @@ With more time or GPU resources, I would have experimented with CLIP-based simil
 The YOLO model was trained on the COCO dataset, which includes a class called "tv" or "monitor", but does not have a class for "painting" or "picture frame".
 So when it sees a rectangular object on a wall, especially with reflections and a dark border, it assumes it’s a TV because that’s the closest class it knows.
 From the model’s perspective, that prediction is actually logical, not random.
-<img src="task2_preprocess_analysis/outputs/visuals_all/card_frame_000011.jpg" width="70%" />
+<img src="scene_classification_and_object_detection/outputs/visuals_all/card_frame_000011.jpg" width="70%" />
 
 
 ---
@@ -268,10 +268,10 @@ The goal of Task 3 was to demonstrate how information extracted in Tasks 1 and 2
 <img src="task3_query1.png" width="80%" />
 
 <p float="left">
-  <img src="task1_video_captioning/data/interim/frames/frame_000013.jpg" width="24%" />
-  <img src="task1_video_captioning/data/interim/frames/frame_000014.jpg" width="24%" />
-<img src="task1_video_captioning/data/interim/frames/frame_000003.jpg" width="24%" />
-  <img src="task1_video_captioning/data/interim/frames/frame_000008.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000013.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000014.jpg" width="24%" />
+<img src="frame_extraction_and_captioning/data/interim/frames/frame_000003.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000008.jpg" width="24%" />
 </p>
 
 **Figure:** Output of Task 3 for query - "flowers or nature"
@@ -280,10 +280,10 @@ The goal of Task 3 was to demonstrate how information extracted in Tasks 1 and 2
 <img src="task3_query2.png" width="80%" />
 
 <p float="left">
-  <img src="task1_video_captioning/data/interim/frames/frame_000041.jpg" width="24%" />
-  <img src="task1_video_captioning/data/interim/frames/frame_000011.jpg" width="24%" />
-<img src="task1_video_captioning/data/interim/frames/frame_000025.jpg" width="24%" />
-  <img src="task1_video_captioning/data/interim/frames/frame_000026.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000041.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000011.jpg" width="24%" />
+<img src="frame_extraction_and_captioning/data/interim/frames/frame_000025.jpg" width="24%" />
+  <img src="frame_extraction_and_captioning/data/interim/frames/frame_000026.jpg" width="24%" />
 </p>
 
 **Figure:** Output of Task 3 for query - "paintings or indoor scenes"
